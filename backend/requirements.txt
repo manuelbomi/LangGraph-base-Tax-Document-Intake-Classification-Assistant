@@ -1,0 +1,32 @@
+# Core web framework
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+python-multipart==0.0.20
+
+# LangGraph + LLM providers (provider-agnostic via app/llm.py)
+langgraph==1.2.11
+langgraph-checkpoint==4.2.0
+langgraph-checkpoint-postgres==3.1.2
+langchain-core==1.6.3
+langchain-openai==1.6.2
+langchain-anthropic==1.7.2
+
+# Document ingestion: PDF text extraction (pure Python, no native OCR
+# dependency). Scanned/photographed documents are sent to a vision LLM
+# instead (see app/tools/document_ingest.py).
+pdfplumber==0.11.4
+
+# Database
+SQLAlchemy==2.0.54
+alembic==1.20.0
+psycopg[binary]==3.3.5
+
+# Settings / config
+pydantic==2.13.5
+pydantic-settings==2.15.0
+python-dotenv==1.2.3
+
+# Testing
+pytest==9.1.1
+pytest-asyncio==1.4.0
+httpx==0.28.1

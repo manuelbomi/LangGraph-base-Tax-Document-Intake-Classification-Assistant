@@ -1,0 +1,28 @@
+{
+  "id": "morgan-alvarez",
+  "name": "Morgan Alvarez",
+  "tax_year": 2025,
+  "notes": "Changed jobs mid-year (Fenwick Logistics through June, Northbridge Analytics from July). Also a minority partner in a family investment LLC and holds a taxable brokerage account. Carried forward from last year's organizer: expect two W-2s, one Schedule K-1, and one 1099-DIV.",
+  "expected_documents": [
+    {
+      "doc_type": "W-2",
+      "counterparty_name": "Fenwick Logistics Inc",
+      "notes": "Employer January-June 2025."
+    },
+    {
+      "doc_type": "W-2",
+      "counterparty_name": "Northbridge Analytics LLC",
+      "notes": "Employer July-December 2025 (new job)."
+    },
+    {
+      "doc_type": "K-1",
+      "counterparty_name": "Alvarez Family Holdings LLC",
+      "notes": "Family investment partnership, minority partner."
+    },
+    {
+      "doc_type": "1099-DIV",
+      "counterparty_name": "Crestline Investments",
+      "notes": "Taxable brokerage account dividends."
+    }
+  ]
+}

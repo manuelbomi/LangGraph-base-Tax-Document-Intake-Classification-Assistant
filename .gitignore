@@ -1,0 +1,50 @@
+# --- secrets ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# --- Python ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+dist/
+build/
+
+# --- backend runtime data (uploaded documents) --------------------------
+backend/data/
+*.db
+*.db-*
+
+# --- Node / frontend -----------------------------------------------------
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Editors / OS --------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Docker --------------------------------------------------------------
+*.pid
+
+# --- Alembic (keep versions, ignore local sqlite fallback if any) -------
+*.sqlite3

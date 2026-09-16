@@ -1,0 +1,23 @@
+{
+  "id": "jordan-ellis",
+  "name": "Jordan Ellis",
+  "tax_year": 2025,
+  "notes": "Single filer. Part-time retail W-2 employee who also does freelance graphic design and keeps a high-yield savings account. Carried forward from last year's organizer: expect one W-2, one 1099-NEC, and one 1099-INT.",
+  "expected_documents": [
+    {
+      "doc_type": "W-2",
+      "counterparty_name": "Cascade Retail Group",
+      "notes": "Primary employer (part-time retail associate)."
+    },
+    {
+      "doc_type": "1099-NEC",
+      "counterparty_name": "Bluepeak Design Studio",
+      "notes": "Freelance graphic design contract work."
+    },
+    {
+      "doc_type": "1099-INT",
+      "counterparty_name": "Harborview Savings Bank",
+      "notes": "High-yield savings account interest."
+    }
+  ]
+}
