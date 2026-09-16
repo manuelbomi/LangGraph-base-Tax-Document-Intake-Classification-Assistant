@@ -1,7 +1,7 @@
 # Core web framework
 fastapi==0.141.1
 uvicorn[standard]==0.53.0
-python-multipart==0.0.20
+python-multipart==0.0.31
 
 # LangGraph + LLM providers (provider-agnostic via app/llm.py)
 langgraph==1.2.11
