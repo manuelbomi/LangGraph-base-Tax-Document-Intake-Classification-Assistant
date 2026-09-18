@@ -1,4 +1,4 @@
-# Tax Document Intake & Classification Assistant
+# LangGraph-base Tax Document Intake & Classification Assistant
 
 A LangGraph-powered assistant for individual tax preparers: upload a client's
 tax documents (W-2s, 1099s, K-1s, bank statements) one at a time as they
